@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="">
+
+<xs:element name="korisnik">
+<xs:complexType>
+<xs:sequence>
+	<xs:element name="e-mail" type="xs:string"/> 
+	<xs:element name="ime" type="xs:string"/>
+	<xs:element name="prezime" type="xs:string"/>
+	<xs:element name="brojtelefona" type="xs:int"/>
+	<xs:element name="adresa" type="xs:string"/>
+	
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>
